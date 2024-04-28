@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Adding valid language -->
+<head>
+    <title>SunnyBites</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .header {
+            background-image: url('sunny_background.jpg');
+            color: #000; /* Changed for better contrast */
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #FFA500;
+            padding: 10px;
+        }
+        .nav a {
+            color: #000; /* Changed for better contrast */
+            text-decoration: none;
+        }
+        .gallery img {
+            width: 30%;
+            transition: transform 0.5s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .testimonials {
+            background-color: #FFFACD;
+            padding: 20px;
+            color: #000; /* Improved contrast */
+        }
+        .testimonial {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #FFA500;
+            color: #000; /* Changed for better contrast */
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to SunnyBites!</h1>
+    </div>
+    <div class="nav">
+        <a href="#home">Home</a> <!-- Assuming these IDs exist on the page, else href="#" was removed -->
+        <a href="#menu">Menu</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="gallery">
+        <!-- Example image with details -->
+        <img src="dish1.jpg" alt="Dish 1" title="Dish 1 - $9.99">
+        <!-- Add more images with titles as above for description and price -->
+    </div>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"The best dining experience I've had in years!" - John Doe</p>
+            <img src="john_doe.jpg" alt="John Doe">
+        </div>
+        <!-- Add more testimonials here -->
+    </div>
+    <div class="footer">
+        Copyright &copy; 2023 SunnyBites
+        <!-- Add social media icons here -->
+    </div>
+</body>
+</html>
